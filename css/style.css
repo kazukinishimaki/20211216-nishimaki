@@ -178,13 +178,13 @@ a {
   padding-bottom: 20px;
 }
 .blog-log {
+  width: 1000px;
   padding-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 230px;
+  margin: 0 auto 30px;
 }
 .blog-title {
-  margin-bottom: 30px;
-  margin-left: 230px;
+  width: 1000px;
+  margin: 0 auto 30px;
 }
 .wrapper {
   display: flex;
@@ -192,7 +192,8 @@ a {
 }
 .card {
   border: 1px solid #dedede;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
+  overflow: hidden;
   background-color: white;
   margin: 0 20px;
   position: relative;
@@ -235,7 +236,8 @@ a {
 }
 .company-log,
 .company-title {
-  margin-left: 330px;
+  width: 55%;
+  margin: 0 auto;
 }
 .company-log {
   margin-top: 80px;
@@ -264,12 +266,16 @@ table td {
 .contact-banner {
   display: flex;
 }
+.info-img,
+.inter-img {
+  width: 50vw;
+}
 .contact-info {
   position: relative;
 }
 .info-text {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 40%;
   color: white;
   font-size: 30px;
@@ -280,7 +286,7 @@ table td {
 }
 .interview-text {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 30%;
   color: white;
   font-size: 30px;
